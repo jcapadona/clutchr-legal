@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support — Clutchr Baseball</title>
+<style>
+  :root {
+    --bg: #050806;
+    --charcoal: #111612;
+    --field-green: #23D160;
+    --electric-green: #39FF88;
+    --white: #F7FFF9;
+    --gray: #A8B3AA;
+    --gold: #F5C542;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--white);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 64px 24px 96px;
+  }
+  .eyebrow {
+    color: var(--field-green);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+  h1 {
+    font-size: 34px;
+    margin: 0 0 8px;
+    color: var(--white);
+  }
+  .tagline {
+    color: var(--gray);
+    font-size: 15px;
+    margin-bottom: 40px;
+  }
+  .card {
+    background: var(--charcoal);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 14px;
+    padding: 28px 24px;
+    margin-bottom: 20px;
+  }
+  .card h2 {
+    font-size: 18px;
+    margin: 0 0 10px;
+    color: var(--electric-green);
+  }
+  .card p {
+    color: var(--white);
+    margin: 0 0 8px;
+    font-size: 15px;
+  }
+  .card p.muted {
+    color: var(--gray);
+    font-size: 14px;
+  }
+  a.email {
+    color: var(--gold);
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  a.email:hover { text-decoration: underline; }
+  .links {
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .links a {
+    color: var(--gray);
+    font-size: 13px;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(168,179,170,0.3);
+    padding-bottom: 2px;
+  }
+  .links a:hover { color: var(--field-green); border-color: var(--field-green); }
+  footer {
+    margin-top: 56px;
+    color: var(--gray);
+    font-size: 12px;
+    opacity: 0.7;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="eyebrow">Clutchr Baseball</div>
+    <h1>Support</h1>
+    <p class="tagline">Prepare. Compete. Reset.</p>
+
+    <div class="card">
+      <h2>Contact Us</h2>
+      <p>For questions, bug reports, billing/subscription issues, or feedback on Clutchr Baseball, reach out directly:</p>
+      <p><a class="email" href="mailto:support@clutchrbaseball.com">support@clutchrbaseball.com</a></p>
+      <p class="muted">We typically respond within 1–2 business days.</p>
+    </div>
+
+    <div class="card">
+      <h2>Subscriptions &amp; Billing</h2>
+      <p class="muted">Clutchr Pro subscriptions are managed entirely through your Apple ID. To cancel, change plans, or request a refund, go to:</p>
+      <p class="muted">Settings → [Your Name] → Subscriptions on your iPhone or iPad.</p>
+      <p class="muted">We don't have access to your payment details — all billing is handled by Apple.</p>
+    </div>
+
+    <div class="card">
+      <h2>Privacy &amp; Data</h2>
+      <p class="muted">For questions about how we handle your data, see our Privacy Policy, or email <a class="email" style="font-size:15px" href="mailto:privacy@clutchrbaseball.com">privacy@clutchrbaseball.com</a> directly.</p>
+    </div>
+
+    <div class="links">
+      <a href="./privacy.html">Privacy Policy</a>
+      <a href="./terms.html">Terms of Service</a>
+      <a href="./childrens-privacy.html">Children's Privacy Notice</a>
+    </div>
+
+    <footer>© 2026 Jon Capadona. All rights reserved.</footer>
+  </div>
+</body>
+</html>
